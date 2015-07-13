@@ -84,6 +84,14 @@ input[type="text"] {
 input[type="email"] {
 	border: 1px solid blue;
 }
+.table {
+	 position:absolute;
+	 top:20%;
+	 left:13%;
+	 width:510px;
+	 height:450px;
+	 padding:10px;
+}
 .table_col {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
 	font-size: 14px;
