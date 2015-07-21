@@ -1,6 +1,7 @@
 #h1 {
 	position: absolute;
 	top: 90px;
+<<<<<<< HEAD
 	margin-left: 280px;
 	font-family:'Comfortaa', cursive;
 	font-size: 23px;
@@ -9,6 +10,12 @@
              0px 14px 10px rgba(0,0,0,0.15),
              0px 24px 2px rgba(0,0,0,0.1),
              0px 34px 30px rgba(0,0,0,0.1);
+=======
+	margin-left: 275px;
+	color: #232D33;
+	font-family:'Comfortaa', cursive;
+	font-size: 23px;
+>>>>>>> 051e5ae119d6e526aa0ad01207f8427fad3ad734
 }
 	p {
 		font-size: 35px;
@@ -84,6 +91,7 @@
     border-radius: 5px;
     color: #232D33;
     box-shadow: inset 0 -4px 0 #232D33;
+<<<<<<< HEAD
 }
 #linklast a:hover {
     box-shadow: inset 0 -60px 0 #232D33,
@@ -99,6 +107,18 @@
 	shadow: 1px 1px 2px black, 0 0 1em red;
 }
 
+=======
+}
+#linklast a:hover {
+    box-shadow: inset 0 -60px 0 #232D33,
+    2px 2px 3px rgba(0,0,0,0.3);
+    color: #FDFDFD;
+}
+
+
+
+
+>>>>>>> 051e5ae119d6e526aa0ad01207f8427fad3ad734
 .table_col {
 	 margin: auto;
 	 top:5px;
@@ -272,4 +292,8 @@ footer a img {
     color: #FCDDC0;
 }
 
+<<<<<<< HEAD
 	
+=======
+	
+>>>>>>> 051e5ae119d6e526aa0ad01207f8427fad3ad734
