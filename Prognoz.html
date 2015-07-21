@@ -1,66 +1,77 @@
 <!doctype html>
 <html>
 <head>
-	<tile>Prognoz</tile>
+	<title>Forecast</title>
 	<html lang="uk">
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="main.css">
 	<style>
-	.lviv {
-		opacity: 0.5;
-	}
+		.p#location {
+			text-align: center;
+			font-family: 'Marck Script', cursive;
+		}
 	</style>
-</head>
+	</head>
 <body>
-	<body background="images/Blur-37.PNG" alt="lviv" class="lviv">
+	<body background="images/Hexagon-b.jpg" alt="lviv" class="lviv">
 	<div id="linkhome">
-	<ul>
-	<li><a href="index.html">Головна</a></li>
-	</ul>
+	<a href="index.html">Головна</a>
 </div>
-<div class="table">
-	<table class="table_col">
+<div id="linklast">
+	<a href="Formular.html">Гостьова</a>
+</div>
+
+     <p>Місто: <span id="location" ></span></p>
+     
+    <table id="weatherTable">
+    	<table class="table_col">
 		<colgroup>
-		<col style="background:#C7DAF0;">
-	</colgroup>
-<tr>
-	<th>Середа<br>1<br>липня</th>
-	<th>Четвер<br>2<br>липня</th>
-		<th>П'ятниця<br>3<br>липня</th>
-		<th>Субота<br>4<br>липня</th>
-		<th>Неділя<br>5<br>липня</th>
-		<th>Понеділк<br>6<br>липня</th>
-		<th>Вівторок<br>7<br>липня</th>
+			<col style="background:#C7DAF0;">
+		</colgroup>
+	<tr>
+		<th id="day1"></th>
+		<th id="day2"></th>
+		<th id="day3"></th>
+		<th id="day4"></th>
+		<th id="day5"></th>
+		<th id="day6"></th>
+		<th id="day7"></th>
+	</tr>
+	<tr>
+		<td id="icon1"></td>
+		<td id="icon2"></td>
+		<td id="icon3"></td>
+		<td id="icon4"></td>
+		<td id="icon5"></td>
+		<td id="icon6"></td>
+		<td id="icon7"></td>
+	</tr>
+	<tr>
+	<td>середня</td>
+	<td>середня</td>
+	<td>середня</td>
+	<td>середня</td>
+	<td>середня</td>
+	<td>середня</td>
+	<td>середня</td>
 </tr>
 <tr>
-<td><img src="images/sun.jpg" alt="Sun" width="111" height="110"></td>
-<td><img src="images/dojdgroza.jpg" alt="Dojdgroza" width="111" height="110"></td>
-<td><img src="images/sontucha.jpg" alt="Soncetucha" width="111" height="110"></td>
-<td><img src="images/dojd.jpg" alt="Dojd" width="111" height="110"></td>
-<td><img src="images/dojdgroza.jpg" alt="Dojdgroza" width="111" height="110"></td>
-<td><img src="images/obl.jpg" alt="Oblako" width="111" height="110"></td>
-<td><img src="images/sontucha.jpg" alt="Soncetucha" width="111" height="110"></td>
-</tr>
-<tr>
-	<td>мін макс</td>
-	<td>мін макс</td>
-	<td>мін макс</td>
-	<td>мін макс</td>
-	<td>мін макс</td>
-	<td>мін макс</td>
-	<td>мін макс</td>
-</tr>
-<tr>
-	<td>+11° +27°</td>
-	<td>+15° +29°</td>
-	<td>+18° +31°</td>
-	<td>+20° +27°</td>
-	<td>+17° +30°</td>
-	<td>+20° +22°</td>
-	<td>+15° +22°</td>
+	<td id="temp1"></td>
+	<td id="temp2"></td>
+	<td id="temp3"></td>
+	<td id="temp4"></td>
+	<td id="temp5"></td>
+	<td id="temp6"></td>
+	<td id="temp7"></td>
 </tr>
 </table>
 </div>
+    <p id="error"></p>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
+        <script src="scripts/weatherScript.js"></script>
+        <script src="scripts/prognoz.js"></script>
 </body>
 </html>
 
