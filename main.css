@@ -1,7 +1,6 @@
 #h1 {
 	position: absolute;
 	top: 90px;
-<<<<<<< HEAD
 	margin-left: 280px;
 	font-family:'Comfortaa', cursive;
 	font-size: 23px;
@@ -10,12 +9,6 @@
              0px 14px 10px rgba(0,0,0,0.15),
              0px 24px 2px rgba(0,0,0,0.1),
              0px 34px 30px rgba(0,0,0,0.1);
-=======
-	margin-left: 275px;
-	color: #232D33;
-	font-family:'Comfortaa', cursive;
-	font-size: 23px;
->>>>>>> 051e5ae119d6e526aa0ad01207f8427fad3ad734
 }
 	p {
 		font-size: 35px;
